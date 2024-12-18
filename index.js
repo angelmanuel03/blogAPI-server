@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 const corsOptions = {
-	origin: ['http://localhost:4000'],
+	origin: ['http://localhost:3000', 'https://blog-app-client-taupe-nine.vercel.app'],
     credentials: true,
     optionsSuccessStatus: 200 
 }
